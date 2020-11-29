@@ -1,6 +1,6 @@
 # Final Project: US Car Accidents
 
-
+## Data Organization
 Attribute | Data Type | Description | Nullable
 --- | --- | --- | ---
 Traffic Attributes (12) 
@@ -58,10 +58,9 @@ Civil_Twilight | Categorical | Shows the period of day (i.e. day or night) based
 Nautical_Twilight | Categorical | Shows the period of day (i.e. day or night) based on nautical twilight | Yes
 Astronomical_Twilight | Categorical | Shows the period of day (i.e. day or night) based on astronomical twilight | Yes
 
-
-# Header 1
-## Header 2
-### Header 3
+## Data Statistics
+## Inquiries
+## References
 
 - Bulleted
 - List
