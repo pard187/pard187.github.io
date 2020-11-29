@@ -59,13 +59,20 @@ Nautical_Twilight | Categorical | Shows the period of day (i.e. day or night) ba
 Astronomical_Twilight | Categorical | Shows the period of day (i.e. day or night) based on astronomical twilight | Yes
 
 ## Data Statistics
+
 ## Inquiries
-## References
+For inquiries about this project, please contact Kaelyn Gormey at gormleyk@lafayette.edu, James Giffin at giffinj@lafayette.edu, Kate Johnston at johnstkr@lafayette.edu, or Marwa Saleh at salehm@lafayette.edu.
+
+## Data Sources
+- [US-Accidents Dataset](https://www.kaggle.com/sobhanmoosavi/us-accidents)
+- [US Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data)
+
+## Acknowledgments
 Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. [*“A Countrywide Traffic Accident Dataset.”*](https://arxiv.org/abs/1906.05409), arXiv preprint       arXiv:1906.05409 (2019).
 
 Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. [*“Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights.”*](https://arxiv.org/abs/1909.09638) In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
 
-
+```
 - Bulleted
 - List
 
@@ -75,7 +82,6 @@ Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teo
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
