@@ -1,5 +1,7 @@
 # Final Project: US Car Accidents
 
+## Introduction
+
 ## Data Organization
 Attribute | Data Type | Description | Nullable
 --- | --- | --- | ---
