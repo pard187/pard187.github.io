@@ -4,6 +4,11 @@ You can use the [editor on GitHub](https://github.com/pard187/pard187.github.io/
 
 ### Markdown
 
+Attribute | Data Type | Description | Nullable
+--- | --- | --- | ---
+Traffic Attributes (12)
+ID | Categorical | A unique identifier of the accident record | No
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 # Header 1
