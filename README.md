@@ -1,5 +1,12 @@
 # Final Project: US Car Accidents
 
+-   [Introduction](#introduction)
+-   [Data Organization](#data-organization)
+-   [Data Statistics](#data-statistics)
+-   [Inquiries](#inquiries)
+-   [Data Sources](#licensing)
+-   [Acknowledgments](#references)
+
 ## Introduction
 
 ## Data Organization
