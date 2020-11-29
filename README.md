@@ -1,10 +1,5 @@
-## Final Project: US Car Accidents
+# Final Project: US Car Accidents
 
-You can use the [editor on GitHub](https://github.com/pard187/pard187.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-### Markdown
-
-## Examples
 
 Attribute | Data Type | Description | Nullable
 --- | --- | --- | ---
@@ -63,7 +58,6 @@ Civil_Twilight | Categorical | Shows the period of day (i.e. day or night) based
 Nautical_Twilight | Categorical | Shows the period of day (i.e. day or night) based on nautical twilight | Yes
 Astronomical_Twilight | Categorical | Shows the period of day (i.e. day or night) based on astronomical twilight | Yes
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 # Header 1
 ## Header 2
