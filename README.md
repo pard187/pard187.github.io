@@ -1,4 +1,4 @@
-# Ds 201 Final Project: Analysis of the Rate and Severity of Motor Vehicle Accidents in the United States
+# Analysis of the Rate and Severity of Motor Vehicle Accidents in the United States
 
 -   [Introduction](#introduction)
 -   [Data Organization](#data-organization)
