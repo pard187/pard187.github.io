@@ -64,11 +64,13 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 <div class="datatable-end"></div>
 
 Furthermore, we added the following attributes that we are using later in our analysis:
+<div class="datatable-begin"></div>
 | Attribute | Data Type | Description | Nullable
 | --- | --- | --- | ---
 | Duration | Ratio | The time duration of the accident in minutes which is calculated as the difference between the start time and end time | No |
 | Start_Hour | Ratio | The hour when the accident started | No |
 | Day | Categorical | The day of the week on which the accident took place | No |
+<div class="datatable-end"></div>
 
 ## Exploratory Data Analysis
 
