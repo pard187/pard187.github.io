@@ -12,6 +12,7 @@
 ## Data Organization
 
 <div class="datatable-begin"></div>
+
 | Attribute | Data Type | Description | Nullable
 | --- | --- | --- | ---
 | Traffic Attributes (12) 
@@ -68,6 +69,7 @@
 | Civil_Twilight | Categorical | Shows the period of day (i.e. day or night) based on civil twilight | Yes
 | Nautical_Twilight | Categorical | Shows the period of day (i.e. day or night) based on nautical twilight | Yes
 | Astronomical_Twilight | Categorical | Shows the period of day (i.e. day or night) based on astronomical twilight | Yes
+
 <div class="datatable-end"></div>
 
 ## Data Statistics
