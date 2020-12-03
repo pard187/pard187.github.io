@@ -39,7 +39,7 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 | Bump | Categorical | A POI annotation which indicates presence of speed bump or hump in a nearby location | No |
 | Crossing | Categorical | A POI annotation which indicates presence of crossing  in a nearby location | No |
 | Give_Way | Categorical | A POI annotation which indicates presence of giveway sign in a nearby location | No |
-| Categorical | A POI annotation which indicates presence of junction in a nearby location | No |
+| Junction | Categorical | A POI annotation which indicates presence of junction in a nearby location | No |
 | No_Exit | Categorical | A POI annotation which indicates presence of no exit sign in a nearby location | No |
 | Railway | Categorical | A POI annotation which indicates presence of railway in a nearby location | No |
 | Roundabout | Categorical | A POI annotation which indicates presence of roundabout in a nearby location | No |
