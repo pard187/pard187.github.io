@@ -15,7 +15,7 @@
 
 | Attribute | Data Type | Description | Nullable |
 | --- | --- | --- | --- |
-| Traffic Attributes (12) |||
+| Traffic Attributes (12) || : |
 | ID | Categorical | A unique identifier of the accident record | No |
 | Source | Categorical | Indicates source of the accident report (i.e. the API which reported the accident) | No |
 | TMC | Numeric | A traffic accident may have a Traffic Message Channel (TMC) code which provides more detailed description of the event | Yes |
@@ -28,7 +28,7 @@
 | End_Lng | Categorical | Shows longitude in GPS coordinate of the end point | Yes |
 | Distance(mi) | Ratio | The length of the road extent affected by the accident | No |
 | Description | Categorical | Shows natural language description of the accident | No |
-| Address Attributes (9)
+| Address Attributes (9) |||
 | Number | Categorical | Shows the street number in address field | Yes |
 | Street | Categorical | Shows the street name in address field | Yes |
 | Side | Categorical | Shows the relative side of the street (Right/Left) in address field | Yes |
@@ -50,7 +50,7 @@
 | Wind_Speed| Categorical | Shows wind speed in miles per hour | Yes |
 | Precipitation(in) | Categorical | Shows precipitation amount in inches | Yes |
 | Weather_Condition | Categorical | Shows the weather condition (rain, snow, thunderstorm, fog, etc.) | Yes |
-| Point of Interest (POI) Attributes (13)
+| Point of Interest (POI) Attributes (13) |||
 | Amenity | Categorical | A POI annotation which indicates presence of amenity in a nearby location | No |
 | Bump | Categorical | A POI annotation which indicates presence of speed bump or hump in a nearby location | No |
 | Crossing | Categorical | A POI annotation which indicates presence of crossing  in a nearby location | No |
@@ -64,7 +64,7 @@
 | Traffic_Calming | Categorical | A POI annotation which indicates presence of traffic calming means in a nearby location | No |
 | Traffic_Signal | Categorical | A POI annotation which indicates presence of traffic signal in a nearby location | No |
 | Turning_Loop | Categorical | A POI annotation which indicates presence of turning loop in a nearby location | No |
-| Period-of-day Attributes(4)
+| Period-of-day Attributes(4) |||
 | Sunrise_Sunset | Categorical | Shows the period of day (i.e. day or night) based on sunrise/sunset | Yes |
 | Civil_Twilight | Categorical | Shows the period of day (i.e. day or night) based on civil twilight | Yes |
 | Nautical_Twilight | Categorical | Shows the period of day (i.e. day or night) based on nautical twilight | Yes |
