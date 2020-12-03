@@ -1,5 +1,3 @@
-# Analysis of the Rate and Severity of Motor Vehicle Accidents in the United States
-
 -   [Introduction](#introduction)
 -   [Data Organization](#data-organization)
 -   [Data Statistics](#data-statistics)
@@ -15,7 +13,7 @@
 
 | Attribute | Data Type | Description | Nullable |
 | --- | --- | --- | --- |
-| Traffic Attributes (12) || : |
+| Traffic Attributes (12) |||
 | ID | Categorical | A unique identifier of the accident record | No |
 | Source | Categorical | Indicates source of the accident report (i.e. the API which reported the accident) | No |
 | TMC | Numeric | A traffic accident may have a Traffic Message Channel (TMC) code which provides more detailed description of the event | Yes |
