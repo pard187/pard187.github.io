@@ -1,4 +1,5 @@
-Click the link below to run [our notebook](https://github.com/pard187/pard187.github.io) directly in Google Collab.
+Click the link below to run [our notebook](https://github.com/pard187/pard187.github.io/blob/master/Final_Project_Gormley_Giffin_Johnston_Saleh.ipynb) directly in Google Collab. No coding is needed to run this notebook. However, since the datasets we are using are too big, it was not convienient to download and import them to github directly. All you need to do is use your own API key by downloading your Kaggle JSON file (only a few kilobytes) and uploading it when prompted (in the 3rd code cell).
+
 <table align="left">
   <td>
     <a target="_blank" href="https://colab.research.google.com/github/pard187/pard187.github.io/blob/master/Final_Project_Gormley_Giffin_Johnston_Saleh.ipynb"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>
