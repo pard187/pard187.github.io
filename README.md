@@ -4,7 +4,7 @@ Click the link below to run [our notebook](https://github.com/pard187/pard187.gi
     <a target="_blank" href="https://colab.research.google.com/github/pard187/pard187.github.io/blob/master/Final_Project_Gormley_Giffin_Johnston_Saleh.ipynb"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>
   </td>
 </table>
-<br>
+<br> <br> <br>
 
 -   [Introduction](#introduction)
 -   [Data Organization](#data-organization)
