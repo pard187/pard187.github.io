@@ -20,6 +20,7 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 
 ### US-Accidents Data:
 <div class="datatable-begin"></div>
+
 | Attribute | Data Type | Description | Nullable |
 | --- | --- | --- | --- |
 | Severity | Ordinal | Shows severity of the accident on a scale of 1-4 (1 indicates the least impact on traffic and 4 indicates a significant impact on traffic | No |
@@ -48,10 +49,12 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 | Traffic_Signal | Categorical | A POI annotation which indicates presence of traffic signal in a nearby location | No |
 | Turning_Loop | Categorical | A POI annotation which indicates presence of turning loop in a nearby location | No |
 | Sunrise_Sunset | Categorical | Shows the period of day (i.e. day or night) based on sunrise/sunset | Yes |
+
 <div class="datatable-end"></div>
 
 ### US Census Demographic Data:
 <div class="datatable-begin"></div>
+
 | Attribute | Data Type | Description | Nullable
 | --- | --- | --- | ---
 | State | Categorical | Name of one of the 52 states of America, or DC or Puerto Rico | No |
@@ -61,15 +64,18 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 | Transit | Ratio | Percentage of the county’s population commuting on public transport | No |
 | MeanCommute | Ratio | Mean commute time in minutes | No |
 | Poverty | Ratio | Percentage of the county’s population under the level of poverty | No |
+
 <div class="datatable-end"></div>
 
 Furthermore, we added the following attributes that we are using later in our analysis:
 <div class="datatable-begin"></div>
+
 | Attribute | Data Type | Description | Nullable
 | --- | --- | --- | ---
 | Duration | Ratio | The time duration of the accident in minutes which is calculated as the difference between the start time and end time | No |
 | Start_Hour | Ratio | The hour when the accident started | No |
 | Day | Categorical | The day of the week on which the accident took place | No |
+
 <div class="datatable-end"></div>
 
 ## Exploratory Data Analysis
