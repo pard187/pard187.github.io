@@ -97,10 +97,8 @@ Here we explort some of the most interesting trends in our data. Please refer to
 The following plot displays a scatterplot of accidents in the United States plotted based on Latitude and Longitude. Note that the points are colored by Severity of the accident with red corresponding the Level 4 Severity (the most severe). Below the plot is a map of the major highways and interstates in the United States.
 From these plots, we make a few observations. First, we observe that the accidents, and the Level 4 accidents in particular, seem to follow along the paths of the major highways and interstates in the United States. We have inserted a figure below to illustrate this point. Second, we observe the highest concentration of Level 4 accidents in the most densely populated areas near large cities such as Chicago, Portland, Colombus, and Jacksonville. The Southeast and Midwest regions show particularly high concentrations of severe accidents.
 
-![](Accidents_Throughout_the_US.png)
-
-![Map of Accidents throughout the US](https://github.com/pard187/pard187.github.io/blob/master/Images/Accidents_Throughout_the_US.png)
-![Map of the Highway Network in the US](https://github.com/pard187/pard187.github.io/blob/master/Images/Highway_Network_in_the_US.png)
+![Map of Accidents throughout the US](Images/Accidents_Throughout_the_US.png)
+![Map of the Highway Network in the US](Images/Highway_Network_in_the_US.png)
             
 
 
