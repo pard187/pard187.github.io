@@ -55,8 +55,8 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 ### US Census Demographic Data:
 <div class="datatable-begin"></div>
 
-| Attribute | Data Type | Description | Nullable
-| --- | --- | --- | ---
+| Attribute | Data Type | Description | Nullable |
+| --- | --- | --- | --- |
 | State | Categorical | Name of one of the 52 states of America, or DC or Puerto Rico | No |
 | County | Categorical | Name of the county or county equivalent | No |
 | TotalPopulation | Ratio | Total population of the county | No |
@@ -67,18 +67,21 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 
 <div class="datatable-end"></div>
 
-Furthermore, we added the following attributes that we are using later in our analysis:
+Furthermore, we added the following attributes that we use later in our analysis:
 <div class="datatable-begin"></div>
 
-| Attribute | Data Type | Description | Nullable
-| --- | --- | --- | ---
+| Attribute | Data Type | Description | Nullable |
+| --- | --- | --- | --- |
 | Duration | Ratio | The time duration of the accident in minutes which is calculated as the difference between the start time and end time | No |
 | Start_Hour | Ratio | The hour when the accident started | No |
 | Day | Categorical | The day of the week on which the accident took place | No |
 
 <div class="datatable-end"></div>
 
+For more details about the datasets and a full list of attributes, please refer to [our notebook](https://github.com/pard187/pard187.github.io/blob/master/Final_Project_Gormley_Giffin_Johnston_Saleh.ipynb).
+
 ## Exploratory Data Analysis
+
 
 ## Run Notebook in Google Colab
 Click the link below to run [our notebook](https://github.com/pard187/pard187.github.io/blob/master/Final_Project_Gormley_Giffin_Johnston_Saleh.ipynb) directly in Google Collab. No coding is needed to run this notebook. However, since the datasets we are using are too big, it was not convienient to download and import them to github directly. All you need to do is use your own API key by downloading your Kaggle JSON file (only a few kilobytes) and uploading it when prompted (in the 3rd code cell).
