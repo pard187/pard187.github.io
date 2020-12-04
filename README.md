@@ -1,15 +1,15 @@
 -   [Introduction](#introduction)
 -   [Data Organization](#data-organization)
-    -   [US Accidents Data](##us-accidents-data)
-    -   [US Census Demographic Data](##us-census-demographic-data)
+    -   [US Accidents Data](#us-accidents-data)
+    -   [US Census Demographic Data](#us-census-demographic-data)
 -   [Exploratory Data Analysis](#exploratory-data-analysis)
-    -   [Accidents Map](##accidents-map)
-    -   [Top 10 States by Number of Accidents](##top-10-states-by-number-of-accidents)
-    -   [Accident Rate by Day of the Week](##accident-rate-by-day-of-the-week)
-    -   [Accident Severity by Time of the Day](##accident-severity-by-time-of-the-day)
+    -   [Accidents Map](#accidents-map)
+    -   [Top 10 States by Number of Accidents](#top-10-states-by-number-of-accidents)
+    -   [Accident Rate by Day of the Week](#accident-rate-by-day-of-the-week)
+    -   [Accident Severity by Time of the Day](#accident-severity-by-time-of-the-day)
 -   [Conclusions](#conclusions)
-    -   [Main Observations](##main-observations)
-    -   [Future Directions](##future-directions)
+    -   [Main Observations](#main-observations)
+    -   [Future Directions](#future-directions)
 -   [Run Notebook in Google Colab](#run-notebook-in-google-colab)
 -   [Youtube Video Link](#youtube-video-link)
 -   [Inquiries](#inquiries)
@@ -28,7 +28,7 @@ In order to obtain insight on our question of causes of motor vehicle accidents 
 
 After filtering the data by removing the irrelevant attributes to our analysis, we ended up with the following attributes:
 
-### US Accidents Data:
+## US Accidents Data:
 <div class="datatable-begin"></div>
 
 | Attribute | Data Type | Description | Nullable |
@@ -62,7 +62,7 @@ After filtering the data by removing the irrelevant attributes to our analysis, 
 
 <div class="datatable-end"></div>
 
-### US Census Demographic Data:
+## US Census Demographic Data:
 <div class="datatable-begin"></div>
 
 | Attribute | Data Type | Description | Nullable |
@@ -93,7 +93,7 @@ For more details about the datasets and a full list of attributes, please refer 
 # Exploratory Data Analysis
 Here we explore some of the most interesting trends in our data. Please refer to [our notebook](https://github.com/pard187/pard187.github.io/blob/master/Final_Project_Gormley_Giffin_Johnston_Saleh.ipynb) to explore more profound Data Analysis findings and relatively successful Machine Learning models.
 
-### Accidents Map
+## Accidents Map
 The following plot displays a scatterplot of accidents in the United States based on Latitude and Longitude. Note that the points are colored by Severity of the accident with red corresponding the Level 4 Severity (the most severe). Below the plot is a map of the major highways and interstates in the United States.
 From these plots, we make a few observations. First, we observe that the accidents, and the Level 4 accidents in particular, seem to follow along the paths of the major highways and interstates in the United States. We have inserted a figure below to illustrate this point. Second, we observe the highest concentration of Level 4 accidents in the most densely populated areas near large cities such as Chicago, Portland, Colombus, and Jacksonville. The Southeast and Midwest regions show particularly high concentrations of severe accidents.
 
@@ -102,7 +102,7 @@ From these plots, we make a few observations. First, we observe that the acciden
     <img src = "Images/Highway_Network_in_the_US.png" alt = "Map of the Highway Network in the US">
  </p>
 
-### Top 10 States by Number of Accidents
+## Top 10 States by Number of Accidents
 After standardizing our data based on the population size, we were able to generate this plot which shows the number of accidents per 1000 residents for the top 10 states.
  <p align="center"> 
     <img src="Images/Top_10_States_by_Number_of_Accidents_per_1000_Residents.png" alt="Bar Plot of the Top 10 States by Number of Accidents per 1000 Residents">
