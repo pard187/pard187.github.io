@@ -11,6 +11,7 @@
     -   [Main Observations](##main-observations)
     -   [Future Directions](##future-directions)
 -   [Run Notebook in Google Colab](#run-notebook-in-google-colab)
+-   [Youtube Video Link](#youtube-video-link)
 -   [Inquiries](#inquiries)
 -   [Data Sources](#licensing)
 -   [Acknowledgments](#references)
@@ -156,8 +157,8 @@ Click the link below to run [our notebook](https://github.com/pard187/pard187.gi
 </table>
 <br> <br> <br>
 
-# Walkthrough Youtube Video Link
-Please check our walkthrough video [here](https://youtube.com/watch?v=IXMQVvu-zYY)!
+# Youtube Video Link
+Check out our walkthrough video [here](https://youtube.com/watch?v=IXMQVvu-zYY)!
 
 # Inquiries
 For inquiries about this project, please contact Kaelyn Gormey at gormleyk@lafayette.edu, James Giffin at giffinj@lafayette.edu, Kate Johnston at johnstkr@lafayette.edu, or Marwa Saleh at salehm@lafayette.edu.
