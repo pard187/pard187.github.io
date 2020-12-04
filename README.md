@@ -101,6 +101,7 @@ From these plots, we make a few observations. First, we observe that the acciden
 
 ## Top 10 States by Number of Accidents
 After standardizing our data based on the population size, we were able to generate this plot which shows the number of accidents per 1000 residents for the top 10 states.
+
 ![Bar Plot of the Top 10 States by Number of Accidents per 1000 Residents](Images/Top_10_States_by_Number_of_Accidents_per_1000_Residents.png)
 
 ## Accident Rate and Severity by Day of the Week
