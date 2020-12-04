@@ -97,30 +97,32 @@ Here we explore some of the most interesting trends in our data. Please refer to
 The following plot displays a scatterplot of accidents in the United States based on Latitude and Longitude. Note that the points are colored by Severity of the accident with red corresponding the Level 4 Severity (the most severe). Below the plot is a map of the major highways and interstates in the United States.
 From these plots, we make a few observations. First, we observe that the accidents, and the Level 4 accidents in particular, seem to follow along the paths of the major highways and interstates in the United States. We have inserted a figure below to illustrate this point. Second, we observe the highest concentration of Level 4 accidents in the most densely populated areas near large cities such as Chicago, Portland, Colombus, and Jacksonville. The Southeast and Midwest regions show particularly high concentrations of severe accidents.
 
- <p align="center"> 
+<p align="center">
     <img src = "Images/Accidents_Throughout_the_US.png" alt = "Scatter Plot of Accidents throughout the US Map">
     <img src = "Images/Highway_Network_in_the_US.png" alt = "Map of the Highway Network in the US">
- </p>
+</p>
 
 ## Top 10 States by Number of Accidents
 After standardizing our data based on the population size, we were able to generate this plot which shows the number of accidents per 1000 residents for the top 10 states.
- <p align="center"> 
+
+<p align="center">
     <img src="Images/Top_10_States_by_Number_of_Accidents_per_1000_Residents.png" alt="Bar Plot of the Top 10 States by Number of Accidents per 1000 Residents">
- </p>
+</p>
 
 ## Accident Rate and Severity by Day of the Week
 The following two plots explore the relationship between accidents and days of the week. The first plot compares the number of accidents happening on each day of the week. We note that the number of accidents is fairly consistent Monday-Friday, however, the number of accidents drops significantly, to about a third of the original number, on the weekends. We hypothesize that this could be due to the work commute which happens Monday-Friday, but not on Saturday or Sunday. This is reasonable but something interesting shows up in the second graph, which compares the accident severity on each day of the week. It is noticeable that while there are fewer accidents occuring on the weekends, the severity of the accidents increases. During the weekdays, the percentage of accidents classified as Level 4 is constantly at under 5% of the total number of accidents. However, on Saturday and Sunday, this percentage nearly doubles.
- <p align="center"> 
+
+<p align="center">
     <img src="Images/Number_of_Accidents_by_Day_of_the_Week.png" alt="Bar Plot of the Number of Accidents by Day of the Week">
     <img src="Images/Severity_of_Accident_by_Day_of_the_Week.png" alt="Bar Plot of the Severity of Accidents by Day of the Week">
- </p>
+</p>
 
 ## Accident Severity by Time of the Day
 This plot aims to compare the severity of accidents happening in the daytime versus those happening at night. We note that as the severity of the motor vehicle accident increases, the percentage of accidents that occur after sunset increases from less than 20% (Severity Level 1) to nearly 40% (Severity Level 4). We hypothesize that this difference could be due to driving conditions, specifically the lack of light during those hours of the day, as the sun has completely set. This could also be due to human conditions such as fatigue, or intoxication, which we hypothesize may be more prevalent during those late hours.
 
- <p align="center"> 
+<p align="center">
     <img src="Images/Severity_of_Accidents_and_Light_Condition.png" alt="Bar Plot of the Severity of Accidents during Day and Night">
- </p>
+</p>
 
 # Conclusions
 The goal of our analysis was to explore factors that lead to higher accident rates and higher rates of severe accidents. We explored data containing different road and weather conditions at the sight of accidents across the United States. Based on our analysis we make the following conclusions:
@@ -148,7 +150,9 @@ Regions with high rainfall, high humidity, or low temperatures should further in
 In regards to where to begin, we would reach out to the states with the highest accident rates per 1000 residents in order to encourage a pointed approach to reducing this statistic. In addition, more specific recommendations can be provided based on a specific County or State, as displayed by the performance of the Machine Learning model on Greenville County, SC.
 
 # Run Notebook in Google Colab
+
 Click the link below to run [our notebook](https://github.com/pard187/pard187.github.io/blob/master/Final_Project_Gormley_Giffin_Johnston_Saleh.ipynb) directly in Google Collab. No coding is required to run this notebook, you just need to run every code cell in order or simply click Runtime -> Run all and wait for all cells to run. 
+Click the link below to run [our notebook](https://github.com/pard187/pard187.github.io/blob/master/Final_Project_Gormley_Giffin_Johnston_Saleh.ipynb) directly in Google Collab. No coding is required to run this notebook, you just need to run every code cell in order or simply click Runtime -> Run all and wait for all cells to run.
 
 *Please note that since the datasets we are using are too big, it was not convienient to download and import them to Google Drive or Github directly. Therefore, our notebook is pulling the data directly from Kaggle. A potential drawback to this method is that any changes to the dataset on Kaggle will affect the ability of the analysis in this notebook to be replicated. At the time of analysis, the US-Accidents dataset was last updated July 9, 2020 and the US Census Demographic Dataset was last updated in 2018. Were any of the datasets to be altered at a later date, then the conclusions drawn as a part of this analysis might change.*
 
@@ -172,7 +176,9 @@ For inquiries about this project, please contact Kaelyn Gormey at <a href="mailt
 # Acknowledgments
 - Centers for Disease Control and Prevention (CDC), [*Cost Data and Prevention Policies*](https://www.cdc.gov/transportationsafety/costs/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fmotorvehiclesafety%2Fcosts%2Findex.html), November 2020
 
+
 - Moosavi, S. [*US Accidents (3.5 million records)*](https://www.kaggle.com/sobhanmoosavi/us-accidents), Version 6. 2020 
+- Moosavi, S. [*US Accidents (3.5 million records)*](https://www.kaggle.com/sobhanmoosavi/us-accidents), Version 6. 2020
 
 - Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. [*A Countrywide Traffic Accident Dataset.*](https://arxiv.org/abs/1906.05409), 2019.
 
