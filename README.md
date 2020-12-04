@@ -1,3 +1,34 @@
+<!-- (This is an HTML comment). Copy and paste this entire HTML `<style>...</style>` element (block)
+to the top of your markdown file -->
+<style>
+/* (This is a CSS comment). The below `img` style sets the default CSS styling for all images
+hereafter in this markdown file. */
+img
+{
+    /* Default display value is `inline-block`. Set it to `block` to prevent surrounding text from
+    wrapping around the image. Instead, `block` format will force the text to be above or below the
+    image, but never to the sides. */
+    display:block; 
+    /* Common float options are `left`, `right`, and `none`. Set to `none` to override any previous
+    settings which might have been `left` or `right`. `left` causes the image to be to the left,
+    with text wrapped to the right of the image, and `right` causes the image to be to the right,
+    with text wrapped to its left, so long as `display:inline-block` is also used. */
+    float:none; 
+    /* Set both the left and right margins to `auto` to cause the image to be centered. */
+    margin-left:auto;
+    margin-right:auto;
+    /* You may also set the size of the image, in percent of width of the screen on which the image
+    is being viewed, for example. A good starting point is 60%. It will auto-scale and auto-size
+    the image no matter what screen or device it is being viewed on, maintaining proporptions and 
+    not distorting it. */
+    width:60%;
+    /* You may optionally force a fixed size, or intentionally skew/distort an image by also 
+    setting the height. Values for `width` and `height` are commonly set in either percent (%) 
+    or pixels (px). Ex: `width:100%;` or `height:600px;`. */
+    /* height:400px; */
+}
+</style> 
+
 -   [Introduction](#introduction)
 -   [Data Organization](#data-organization)
     -   [US Accidents Data](##us-accidents-data)
@@ -102,9 +133,7 @@ From these plots, we make a few observations. First, we observe that the acciden
 ## Top 10 States by Number of Accidents
 After standardizing our data based on the population size, we were able to generate this plot which shows the number of accidents per 1000 residents for the top 10 states.
 
-<p align="center">
-  <src="Images/Top_10_States_by_Number_of_Accidents_per_1000_Residents.png">
-</p>
+![Bar Plot of the Top 10 States by Number of Accidents per 1000 Residents](Images/Top_10_States_by_Number_of_Accidents_per_1000_Residents.png)
 
 ## Accident Rate and Severity by Day of the Week
 The following two plots explore the relationship between accidents and days of the week. The first plot compares the number of accidents happening on each day of the week. We note that the number of accidents is fairly consistent Monday-Friday, however, the number of accidents drops significantly, to about a third of the original number, on the weekends. We hypothesize that this could be due to the work commute which happens Monday-Friday, but not on Saturday or Sunday. This is reasonable but something interesting shows up in the second graph, which compares the accident severity on each day of the week. It is noticeable that while there are fewer accidents occuring on the weekends, the severity of the accidents increases. During the weekdays, the percentage of accidents classified as Level 4 is constantly at under 5% of the total number of accidents. However, on Saturday and Sunday, this percentage nearly doubles.
