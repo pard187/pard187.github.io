@@ -1,6 +1,9 @@
 -   [Introduction](#introduction)
 -   [Data Organization](#data-organization)
+    -   [US Accidents Data](##us-accidents-data)
+    -   [US Census Demographic Data](##us-census-demographic-data)
 -   [Exploratory Data Analysis](#exploratory-data-analysis)
+    -   [Accidents Map](##accidents-map)
     -   [Top 10 States by Number of Accidents](##top-10-states-by-number-of-accidents)
     -   [Accident Rate by Day of the Week](##accident-rate-by-day-of-the-week)
     -   [Accident Severity by Time of the Day](##accident-severity-by-time-of-the-day)
@@ -24,7 +27,7 @@ In order to obtain insight on our question of causes of motor vehicle accidents 
 
 After filtering the data by removing the irrelevant attributes to our analysis, we ended up with the following attributes:
 
-## US-Accidents Data:
+## US Accidents Data:
 <div class="datatable-begin"></div>
 
 | Attribute | Data Type | Description | Nullable |
