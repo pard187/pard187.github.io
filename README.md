@@ -163,7 +163,8 @@ Click the link below to run [our notebook](https://github.com/pard187/pard187.gi
 Check out our walkthrough video [here](https://youtube.com/watch?v=IXMQVvu-zYY)!
 
 # Inquiries
-For inquiries about this project, please contact Kaelyn Gormey at <a href="mailto:gormleyk@lafayette.edu"></a>, James Giffin at giffinj@lafayette.edu, Kate Johnston at johnstkr@lafayette.edu, or Marwa Saleh at salehm@lafayette.edu.
+For inquiries about this project, please contact <a href="mailto:myname@gmail.com">contact me</a>
+Kaelyn Gormey at gormleyk@lafayette.edu, James Giffin at giffinj@lafayette.edu, Kate Johnston at johnstkr@lafayette.edu, or Marwa Saleh at salehm@lafayette.edu.
 
 # Data Sources
 - [US-Accidents Dataset](https://www.kaggle.com/sobhanmoosavi/us-accidents)
