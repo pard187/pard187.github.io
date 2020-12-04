@@ -4,6 +4,9 @@
     -   [Top 10 States by Number of Accidents](##top-10-states-by-number-of-accidents)
     -   [Accident Rate by Day of the Week](##accident-rate-by-day-of-the-week)
     -   [Accident Severity by Time of the Day](##accident-severity-by-time-of-the-day)
+-   [Conclusions](#conclusions)
+    -   [Main Observations](##main-observations)
+    -   [Future Directions](##future-directions)
 -   [Run Notebook in Google Colab](#run-notebook-in-google-colab)
 -   [Inquiries](#inquiries)
 -   [Data Sources](#licensing)
@@ -104,7 +107,7 @@ From these plots, we make a few observations. First, we observe that the acciden
 # Conclusions
 The goal of our analysis was to explore factors that lead to higher accident rates and higher rates of severe accidents. We explored data containing different road and weather conditions at the sight of accidents across the United States. Based on our analysis we make the following conclusions:
 
-**What Did We Observe?**
+## Main Observations
 
 First we observe some trends in accident rates among states. South Carolina and Oregon in particular display high rates of accidents per 1000 residents. Furthermore, the Southeast and Midwest regions appear to have higher rates of accidents. We observe also that communities with higher rates of public transport and lower rates of driving commutes record fewer accidents.
 
@@ -116,7 +119,7 @@ Weather Conditions: Weak relationships between Temperature, Humidity and Severit
 
 Our machine learning model was able to relatively successfully predict accident severity using the most significant factors discussed above. This performance supports our conclusion that there is a relationship to note between the variables.
 
-**What is Next?**
+## Future Directions
 
 Based on our insights above we can make the following recommendations to clients interested in preventing accidents and decreasing accident severity.
 
