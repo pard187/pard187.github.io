@@ -13,8 +13,8 @@
 -   [Run Notebook in Google Colab](#run-notebook-in-google-colab)
 -   [Youtube Video Link](#youtube-video-link)
 -   [Inquiries](#inquiries)
--   [Data Sources](#licensing)
--   [Acknowledgments](#references)
+-   [Data Sources](#data-sources)
+-   [Acknowledgments](#acknowledgments)
 
 # Introduction
 Motor vehicle accidents is a leading cause of death and injury in the United States. The use of motor vehicles is steadily increasing in the United States, with the number of vehicle miles traveled increasing each year. As more and more Americans place their lives and wellbeing in the hands of traffic and motor vehicles, ensuring their safety becomes an issue of the utmost importance. In 2015 over 2.5 million individuals were treated in emergency departments for injuries resulting from motor vehicle crashes (CDC, 2020). In 2019 alone, the National Highway Traffic Safety Administration reported over 36,096 fatalities in motor vehicle accidents (NHTSA, 2020). In addition to posing a danger to the safety of the people, motor vehicle accidents are currently a financial drain on the United States government and economy. The CDC estimates that for crashes that occurred in 2017, the cost of medical care and productivity losses associated with occupant injuries and deaths from motor vehicle traffic crashes exceeded $75 billion (CDC, 2020). Furthermore, traffic safety has been the target of a significant amount of spending by the government and other organizations.
