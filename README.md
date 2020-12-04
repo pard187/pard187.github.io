@@ -148,7 +148,9 @@ Regions with high rainfall, high humidity, or low temperatures should further in
 In regards to where to begin, we would reach out to the states with the highest accident rates per 1000 residents in order to encourage a pointed approach to reducing this statistic. In addition, more specific recommendations can be provided based on a specific County or State, as displayed by the performance of the Machine Learning model on Greenville County, SC.
 
 # Run Notebook in Google Colab
-Click the link below to run [our notebook](https://github.com/pard187/pard187.github.io/blob/master/Final_Project_Gormley_Giffin_Johnston_Saleh.ipynb) directly in Google Collab. No coding is needed to run this notebook. However, since the datasets we are using are too big, it was not convienient to download and import them to github directly. All you need to do is use your own API key by downloading your Kaggle JSON file (only a few kilobytes) and uploading it when prompted (in the 3rd code cell).
+Click the link below to run [our notebook](https://github.com/pard187/pard187.github.io/blob/master/Final_Project_Gormley_Giffin_Johnston_Saleh.ipynb) directly in Google Collab. No coding is required to run this notebook, you just need to run every code cell in order or simply click Runtime -> Run all and wait for all cells to run. 
+
+*Please note that since the datasets we are using are too big, it was not convienient to download and import them to Google Drive or Github directly. Therefore, our notebook is pulling the data directly from Kaggle. A potential drawback to this method is that any changes to the dataset on Kaggle will affect the ability of the analysis in this notebook to be replicated. At the time of analysis, the US-Accidents dataset was last updated July 9, 2020 and the US Census Demographic Dataset was last updated in 2018. Were any of the datasets to be altered at a later date, then the conclusions drawn as a part of this analysis might change.*
 
 <table align="left">
   <td>
