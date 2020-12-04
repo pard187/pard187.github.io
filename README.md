@@ -29,6 +29,8 @@ img
 }
 </style> 
 
+
+
 -   [Introduction](#introduction)
 -   [Data Organization](#data-organization)
     -   [US Accidents Data](##us-accidents-data)
@@ -132,8 +134,9 @@ From these plots, we make a few observations. First, we observe that the acciden
 
 ## Top 10 States by Number of Accidents
 After standardizing our data based on the population size, we were able to generate this plot which shows the number of accidents per 1000 residents for the top 10 states.
-
-![Bar Plot of the Top 10 States by Number of Accidents per 1000 Residents](Images/Top_10_States_by_Number_of_Accidents_per_1000_Residents.png)
+ <p align="center"> 
+    <img src="Images/Top_10_States_by_Number_of_Accidents_per_1000_Residents.png" alt="alternate text">
+ </p>
 
 ## Accident Rate and Severity by Day of the Week
 The following two plots explore the relationship between accidents and days of the week. The first plot compares the number of accidents happening on each day of the week. We note that the number of accidents is fairly consistent Monday-Friday, however, the number of accidents drops significantly, to about a third of the original number, on the weekends. We hypothesize that this could be due to the work commute which happens Monday-Friday, but not on Saturday or Sunday. This is reasonable but something interesting shows up in the second graph, which compares the accident severity on each day of the week. It is noticeable that while there are fewer accidents occuring on the weekends, the severity of the accidents increases. During the weekdays, the percentage of accidents classified as Level 4 is constantly at under 5% of the total number of accidents. However, on Saturday and Sunday, this percentage nearly doubles.
