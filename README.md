@@ -5,7 +5,7 @@
 -   [Exploratory Data Analysis](#exploratory-data-analysis)
     -   [Accidents Map](#accidents-map)
     -   [Top 10 States by Number of Accidents](#top-10-states-by-number-of-accidents)
-    -   [Accident Rate by Day of the Week](#accident-rate-by-day-of-the-week)
+    -   [Accident Rate and Severity by Day of the Week](#accident-rate-and-severity-by-day-of-the-week)
     -   [Accident Severity by Time of the Day](#accident-severity-by-time-of-the-day)
 -   [Conclusions](#conclusions)
     -   [Main Observations](#main-observations)
